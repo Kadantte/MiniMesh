@@ -1,7 +1,7 @@
 # MiniMesh
 A Mini USB LoRa module for Meshtasticd.
 
-![image](https://github.com/linser233/uMesh/blob/main/MiniMesh.jpg)
+![image](https://github.com/linser233/MiniMesh/blob/main/MiniMesh.jpg)
 
 **Two hardware versions**:
 
