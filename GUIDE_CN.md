@@ -14,11 +14,11 @@ English guide is here >>> [GUIDE_EN.md](https://github.com/linser233/MiniMesh/bl
 
 ## 软件配置步骤
 
-6. **开机并安装 meshtasticd**  
+3. **开机并安装 meshtasticd**  
    - 开机进入 Linux 系统，按照官方文档安装 meshtasticd：  
      [Meshtastic Linux 安装指南](https://meshtastic.org/docs/software/linux/installation)  
 
-7. **获取并放置配置文件**  
+4. **获取并放置配置文件**  
    - 访问项目仓库 [meshtastic/firmware 官方GitHub](https://github.com/meshtastic/firmware/tree/develop/bin/config.d) 或 [MiniMesh GitHub](https://github.com/linser233/MiniMesh)  
    - 根据模块 PCB 或包装上的标记，下载 `lora-usb-minimesh-1262.yaml` 或 `lora-usb-minimesh-1268.yaml`。  
    - 将文件放入配置目录：  
@@ -27,14 +27,14 @@ English guide is here >>> [GUIDE_EN.md](https://github.com/linser233/MiniMesh/bl
      ```  
    - 💡 **提示：**这一步理论上是自动完成的，只有在需要手动调整发射功率或 `auto` 检测未能正常工作时才需要手动操作。  
 
-8. **启动或重启 meshtasticd 服务**  
+5. **启动或重启 meshtasticd 服务**  
    - 使用 systemd 管理服务：  
      ```bash
      sudo systemctl enable meshtasticd
      sudo systemctl restart meshtasticd
      ```  
 
-9. **开始使用**  
+6. **开始使用**  
    - 验证节点信息：  
      ```bash
      meshtastic --info
@@ -55,4 +55,5 @@ English guide is here >>> [GUIDE_EN.md](https://github.com/linser233/MiniMesh/bl
 
 
 - **天线匹配**  
+
   使用与模块频段一致的天线（如 CN470、EU868、US915 等），避免损坏或性能下降。  
