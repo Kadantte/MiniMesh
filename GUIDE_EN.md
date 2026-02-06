@@ -14,11 +14,11 @@
 
 ## Software Configuration Steps
 
-6. **Power on and install meshtasticd**  
+3. **Power on and install meshtasticd**  
    - Boot into Linux and install meshtasticd following the official documentation:  
      [Meshtastic Linux Installation Guide](https://meshtastic.org/docs/software/linux/installation)  
 
-7. **Obtain and place the configuration file**  
+4. **Obtain and place the configuration file**  
    - Visit the repositories [meshtastic/firmware official GitHub](https://github.com/meshtastic/firmware/tree/develop/bin/config.d) or [MiniMesh GitHub](https://github.com/linser233/MiniMesh).  
    - Based on the PCB or packaging label of your module, download either `lora-usb-minimesh-1262.yaml` or `lora-usb-minimesh-1268.yaml`.  
    - Place the file into the configuration directory:  
@@ -27,14 +27,14 @@
      ```  
    - 💡 **Tip:** This step is usually handled automatically. Manual action is only required if you need to adjust transmit power or if `auto` detection does not work properly.  
 
-8. **Start or restart the meshtasticd service**  
+5. **Start or restart the meshtasticd service**  
    - Manage the service with systemd:  
      ```bash
      sudo systemctl enable meshtasticd
      sudo systemctl restart meshtasticd
      ```  
 
-9. **Begin using**  
+6. **Begin using**  
    - Verify node information:  
      ```bash
      meshtastic --info
@@ -54,4 +54,5 @@
   ⚠️ This option is subject to **local regulations** and **hardware limitations**. Please comply accordingly.  
 
 - **Antenna matching**  
+
   Use an antenna that matches the module’s frequency band (e.g., CN470, EU868, US915) to avoid damage or degraded performance.  
