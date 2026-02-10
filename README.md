@@ -7,7 +7,7 @@ A Mini USB LoRa module for Meshtasticd.
 # ⚠️ Warning
 Due to the crystal-free design, the current version has a bit error rate exceeding the limit.  
 Please **DO NOT** prototype at this stage.  
-The issue is under repairing.  
+The issue is under repair.  
 
 **Two hardware versions**:
 
