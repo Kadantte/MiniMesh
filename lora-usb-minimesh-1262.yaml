@@ -9,7 +9,6 @@ Lora:
   spidev: ch341
   USB_PID: 0x5512
   USB_VID: 0x1A86
-  DIO3_TCXO_VOLTAGE: true
 #  USB_Serialnum: 12345678
   SX126X_MAX_POWER: 22
 # Reduce output power to improve EMI
