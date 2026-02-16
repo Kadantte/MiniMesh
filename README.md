@@ -4,11 +4,6 @@ A Mini USB LoRa module for Meshtasticd.
 ![image](https://github.com/linser233/MiniMesh/blob/main/MiniMesh-F.jpg)
 ![image](https://github.com/linser233/MiniMesh/blob/main/MiniMesh-B.jpg)
 
-# ⚠️ Warning
-Due to the crystal-free design, the current version has a bit error rate exceeding the limit.  
-Please **DO NOT** prototype at this stage.  
-The issue is under repair.  
-
 **Two hardware versions**:
 
 * **SX1262**: supports from **850 MHz to 930 MHz \[ RU864 / IN865 / EU868 / US915 / AU915 / KR920 / AS923 \]**
